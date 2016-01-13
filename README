@@ -1,0 +1,18 @@
+MATLAB codes for estimating the room impulse response (RIR) and exemplar weights for speech dereverberation in noisy environments using the NMF and NMD -based techniques detailed in [1].
+
+Written by Deepak Baby, KU Leuven, September 2015.
+
+Codes are also available in https://github.com/deepakbaby/dereverberation in case there are further changes
+
+If you use this code please cite:
+[1] Deepak Baby and Hugo Van hamme. Supervised Speech Dereverberation in Noisy Environments using Exemplar-based Sparse Representations. In Acoustics, Speech and Signal Processing (ICASSP), 2016 IEEE International Conference on, Shanghai, China, March 2016. 
+_________________________________________________________________
+
+Files:
+
+NMDwithReverb.m : For estimating the RIR and the exemplar weights using the NMD-based formulation
+NMFwithReverb.m : For estimating the RIR and the exemplar weights using the NMF-based formulation
+
+NMDwithReverb_slow.m : A slower version of NMDwithReverb.m to be used if GPU gives 'out of memory' error
+
+Further documentation is available inside each script.
